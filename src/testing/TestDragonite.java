@@ -1,5 +1,5 @@
 package testing;
-/*
+
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
@@ -14,7 +14,7 @@ public class TestDragonite {
 		String temp = "Dragonite is capable of flying faster than the speed of sound. It is a kindhearted Pokémon with human-like intelligence. It shows signs of altruism.";
 		assertEquals(temp,p.getCharacteristics());		
 		try {
-			Dragonite p = new Dragonite(null,0,null,null,null,0);
+			Dragonite p1 = new Dragonite(null,0,null,null,null,0);
 			temp = null;
 			p1.getCharacteristics();
 		}
@@ -29,7 +29,7 @@ public class TestDragonite {
 		String temp = "DRAGON";
 		assertEquals(temp,p.getType());		
 		try {
-			Dragonite p = new Dragonite(null,0,null,null,null,0);
+			Dragonite p1 = new Dragonite(null,0,null,null,null,0);
 			temp = null;
 			p1.getType();
 		}
@@ -44,7 +44,7 @@ public class TestDragonite {
 		String temp = "DRATINI";
 		assertEquals(temp,p.getEvolution());		
 		try {
-			Dragonite p = new Dragonite(null,0,null,null,null,0);
+			Dragonite p1 = new Dragonite(null,0,null,null,null,0);
 			temp = null;
 			p1.getEvolution();
 		}
@@ -59,7 +59,7 @@ public class TestDragonite {
 		int temp = 270;
 		assertEquals(temp,p.getBaseExp());		
 		try {
-			Dragonite p = new Dragonite(null,0,null,null,null,0);
+			Dragonite p1 = new Dragonite(null,0,null,null,null,0);
 			temp = 0;
 			p1.getBaseExp();
 		}
@@ -68,4 +68,4 @@ public class TestDragonite {
 		}
 	}
 }
-*/
+

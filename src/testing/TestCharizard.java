@@ -1,6 +1,6 @@
 package testing;
 
-/*
+
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
@@ -15,9 +15,9 @@ public class TestCharizard {
 		String temp = "Charizard is fit and strong and has the ability to soar up to ridiculous heights. With a single breath of fire, it can burn down forests and melt gigantic glaciers.";
 		assertEquals(temp,p.getCharacteristics());		
 		try {
-			Charizard p = new Charizard(null,0,null,null,null,0);
+			Charizard p1 = new Charizard(null,0,null,null,null,0);
 			temp = null;
-			bulb.getCharacteristics();
+			p1.getCharacteristics();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -30,7 +30,7 @@ public class TestCharizard {
 		String temp = "FIRE";
 		assertEquals(temp,p.getType());		
 		try {
-			Charizard p = new Charizard(null,0,null,null,null,0);
+			Charizard p1 = new Charizard(null,0,null,null,null,0);
 			temp = null;
 			p1.getType();
 		}
@@ -45,7 +45,7 @@ public class TestCharizard {
 		String temp = "CHARMELEON";
 		assertEquals(temp,p.getEvolution());		
 		try {
-			Charizard p = new Charizard(null,0,null,null,null,0);
+			Charizard p1 = new Charizard(null,0,null,null,null,0);
 			temp = null;
 			p1.getEvolution();
 		}
@@ -59,7 +59,7 @@ public class TestCharizard {
 		int temp = 240;
 		assertEquals(temp,p.getBaseExp());		
 		try {
-			Charizard p = new Charizard(null,0,null,null,null,0);
+			Charizard p1 = new Charizard(null,0,null,null,null,0);
 			temp = 0;
 			p1.getBaseExp();
 		}
@@ -68,4 +68,4 @@ public class TestCharizard {
 		}
 	}
 }
-*/
+

@@ -19,5 +19,57 @@ package model;
 //evolution = "IVYSAUR"
 //baseExp = "64" 
 
-
+public class Bulbasaur extends Pokemon{
+	String characteristics;
+	String type;
+	String evolution;
+	int baseExp;
+	
+	public Bulbasaur(String pokemonName, int pokemonNumber, String characteristics, String type, String evolution, int baseExp)
+	{
+		super(pokemonName, pokemonNumber);
+		this.pokemonName = "Bulbasaur";
+		this.pokemonNumber = 001;
+		this.characteristics = "Bulbasaur is a Grass/Poison-type Pokémon introduced in Generation I. It evolves into Ivysaur starting at level 16. It is one of the three Starter Pokémon in the Kanto region.";
+		this.type = "POISON";
+		this.evolution = "IVYSAUR";
+		this.baseExp = 64;
+	}
+	public String getCharacteristics()
+	{
+		return characteristics;
+		
+	}
+	public void setCharacteristics(String characteristics)
+	{
+		this.characteristics = characteristics;
+	}
+	public String getType()
+	{
+		return type;
+		
+	}
+	public void setType(String type)
+	{
+		this.type = type;
+	}
+	public String getEvolution()
+	{
+		return evolution;
+		
+	}
+	public void setEvolution(String evolution)
+	{
+		this.evolution = evolution;
+	}
+	public int getBaseExp()
+	{
+		return baseExp;
+		
+	}
+	public void setBaseExp(int baseExp)
+	{
+		this.baseExp = baseExp;
+	}
+}
 

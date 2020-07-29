@@ -1,5 +1,5 @@
 package testing;
-/*
+
 import org.junit.Test;
 
 import model.Pikachu;
@@ -68,4 +68,4 @@ public class TestPikachu {
 		}
 	}
 }
-*/
+
